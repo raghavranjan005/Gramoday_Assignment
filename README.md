@@ -11,9 +11,8 @@
 
 ## Run the app
 
-    ```
+
     npm start
-    ```
 
 
 # Testing
@@ -32,7 +31,7 @@ Open Postman and paste the API url: http://localhost:5000/reports for Post Reque
 ## Post Request
 
 ### Request 1
-
+```JSON
 POST /reports
 {
   "reportDetails": {
@@ -47,17 +46,17 @@ POST /reports
     "price": 700
   }
 }
-
+```
 
 ### Response 1
-
+```JSON
 {
 	status: "success",
 	reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
 }
-
+```
 ### Request 2
-
+```JSON
 POST /reports
 { 
     "reportDetails": {
@@ -71,22 +70,23 @@ POST /reports
       "price": 1600
     }
 }
-
+```
 
 ### Response 1
+```JSON
 
-Response-2:
 {
 	status: "success",
 	reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
 }
-
+```
 
 ## GET Request
 
 GET /reports?reportID=608e9ce5b9aac89348e22e0e
 
 ### Response
+```JSON
 {
   "_id": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3",
   "cmdtyName": "Potato",
@@ -98,7 +98,7 @@ GET /reports?reportID=608e9ce5b9aac89348e22e0e
   "priceUnit": "Kg",
   "price": 15
 }
-
+```
 
 # Demo Video 
  
