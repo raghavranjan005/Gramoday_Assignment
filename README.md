@@ -24,7 +24,7 @@ https://www.postman.com/downloads/
 ```
 
 ## Instructions for testing
-Open Postman and paste the API url: http://localhost:5000/reports for Post Requests and http://localhost:5000/reports?reportID=608e9ce5b9aac89348e22e0e for GET Request (Here reportID will be different for different reoprts)
+Open Postman and paste the API url: http://localhost:5000/reports for Post Requests and<br/> http://localhost:5000/reports?reportID=608e9ce5b9aac89348e22e0e for GET Request (Here reportID will be different for different reoprts)
 
 ## Example Test cases
 
@@ -51,8 +51,8 @@ POST /reports
 ### Response 1
 ```JSON
 {
-	status: "success",
-	reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
+	"status": "success",
+	"reportID": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
 }
 ```
 ### Request 2
@@ -76,8 +76,8 @@ POST /reports
 ```JSON
 
 {
-	status: "success",
-	reportID: "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
+	"status": "success",
+	"reportID": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
 }
 ```
 
@@ -105,7 +105,7 @@ GET /reports?reportID=608e9ce5b9aac89348e22e0e
  You can find demo video at [Demo Video](https://drive.google.com/drive/folders/1z28xBmJ3yVXteSe8-ReGEKDQabhKmUNE?usp=sharing)
  
  # Author
- [Raghav Ranjan](https://raghavranjan005.github.io/)
+ [Raghav Ranjan](https://raghavranjan005.github.io/)<br/>
  Indian Institute of Technology Jodhpur
  
 
