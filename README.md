@@ -28,9 +28,9 @@ Open Postman and paste the API url: http://localhost:5000/reports for Post Reque
 
 ## Example Test cases
 
-## Post Request
+### Post Request
 
-### Request 1
+#### Request 1
 ```JSON
 POST /reports
 {
@@ -48,14 +48,17 @@ POST /reports
 }
 ```
 
-### Response 1
+#### Response 1
 ```JSON
 {
 	"status": "success",
 	"reportID": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
 }
 ```
-### Request 2
+
+<br/>
+<br/>
+#### Request 2
 ```JSON
 POST /reports
 { 
@@ -72,7 +75,7 @@ POST /reports
 }
 ```
 
-### Response 1
+#### Response 2
 ```JSON
 
 {
