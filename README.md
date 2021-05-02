@@ -57,7 +57,7 @@ POST /reports
 ```
 
 <br/>
-<br/>
+
 #### Request 2
 ```JSON
 POST /reports
