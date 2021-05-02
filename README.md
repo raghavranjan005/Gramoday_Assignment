@@ -2,7 +2,6 @@
 ## Git Clone
 ```
 git clone https://github.com/raghavranjan005/Gramoday_Assignment.git
-
 ```
 
 ## Download and Install
