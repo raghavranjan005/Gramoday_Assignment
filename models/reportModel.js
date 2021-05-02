@@ -7,7 +7,7 @@ const reportSchema = new mongoose.Schema({
     marketName:{type: String, required:true},
     users:[String],
     timestamp : { type : String, default: Date.now},
-    priceUnit:{type:String, defailt:"Kg"},
+    priceUnit:{type:String, default:"Kg"},
     price:{type: Number, required:true},
 
 }, {
