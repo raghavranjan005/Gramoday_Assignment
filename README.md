@@ -52,7 +52,7 @@ POST /reports
 ```JSON
 {
 	"status": "success",
-	"reportID": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
+	"reportID": "608e9ce5b9aac89348e22e0e"
 }
 ```
 
@@ -80,7 +80,7 @@ POST /reports
 
 {
 	"status": "success",
-	"reportID": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3"
+	"reportID": "608e9ce5b9aac89348e22e0e"
 }
 ```
 
@@ -91,7 +91,7 @@ GET /reports?reportID=608e9ce5b9aac89348e22e0e
 ### Response
 ```JSON
 {
-  "_id": "949832f8-48c7-4cb2-8dcd-98f046a9a2e3",
+  "_id": "608e9ce5b9aac89348e22e0e",
   "cmdtyName": "Potato",
   "cmdtyID": "VE-42",
   "marketID": "market-1",
