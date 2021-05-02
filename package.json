@@ -1,0 +1,28 @@
+{
+  "name": "gramoday_assignment",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Backend Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node --experimental-modules App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavranjan005/Gramoday_Assignment.git"
+  },
+  "author": "raghav ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavranjan005/Gramoday_Assignment/issues"
+  },
+  "homepage": "https://github.com/raghavranjan005/Gramoday_Assignment#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
