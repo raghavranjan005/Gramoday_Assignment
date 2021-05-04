@@ -7,10 +7,7 @@ git clone https://github.com/raghavranjan005/Gramoday_Assignment.git
 ## Download and Install
 
 ```
-    npm install nodejs
-    npm install express.js
-    npm install dotenv
-    npm install --save-dev nodemon
+    npm install
 ```
 
 ## Run the app
@@ -21,16 +18,24 @@ git clone https://github.com/raghavranjan005/Gramoday_Assignment.git
 
 # Testing
 
+## Manual Testing
 For testing you can download and install Postman from
 
 ```
 https://www.postman.com/downloads/
 ```
 
-## Instructions for testing
 Open Postman and paste the API url: http://localhost:5000/reports for Post Requests and<br/> http://localhost:5000/reports?reportID=608e9ce5b9aac89348e22e0e for GET Request (Here reportID will be different for different reoprts)
 
 PS: I have cleared database so you need to first POST then you can use GET
+
+## API testing using jest
+
+Feed the API requests in test.js and run
+```
+npm test
+```
+PS: Close the server if it is running in background before running this command. And comment the get request in test.js if you don't have any reportID.
 ## Example Test cases
 
 ### Post Request
@@ -109,6 +114,12 @@ GET /reports?reportID=608e9ce5b9aac89348e22e0e
 ```
 
 # Demo Video 
+ 
+ 
+ ### Manual Testing
+ You can find demo video at [Demo Video](https://drive.google.com/drive/folders/1z28xBmJ3yVXteSe8-ReGEKDQabhKmUNE?usp=sharing)
+ 
+ ### API testing using jest
  
  You can find demo video at [Demo Video](https://drive.google.com/drive/folders/1z28xBmJ3yVXteSe8-ReGEKDQabhKmUNE?usp=sharing)
  
