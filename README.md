@@ -1,4 +1,8 @@
 # Gramoday_Assignment
+## Git Clone
+```
+git clone https://github.com/raghavranjan005/Gramoday_Assignment.git
+```
 
 ## Download and Install
 
@@ -26,6 +30,7 @@ https://www.postman.com/downloads/
 ## Instructions for testing
 Open Postman and paste the API url: http://localhost:5000/reports for Post Requests and<br/> http://localhost:5000/reports?reportID=608e9ce5b9aac89348e22e0e for GET Request (Here reportID will be different for different reoprts)
 
+PS: I have cleared database so you need to first POST then you can use GET
 ## Example Test cases
 
 ### Post Request
