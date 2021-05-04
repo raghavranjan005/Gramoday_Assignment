@@ -4,7 +4,7 @@
 git clone https://github.com/raghavranjan005/Gramoday_Assignment.git
 ```
 
-## Download and Install
+## Install
 
 ```
     npm install
