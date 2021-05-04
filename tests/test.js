@@ -5,6 +5,7 @@ describe('Post Endpoints', () => {
     it('should post', async () => {
       const res = await request(app)
         .post('/reports')
+        // send post request 1
         .send({
           "reportDetails": {
             "userID": "user-1",
@@ -25,6 +26,7 @@ describe('Post Endpoints', () => {
     it('should post', async () => {
       const res = await request(app)
         .post('/reports')
+        // send post request 2
         .send({ 
           "reportDetails": {
             "userID": "user-2",
@@ -41,12 +43,12 @@ describe('Post Endpoints', () => {
       console.log(res.body);
     });
 
-    it('should get', async () => {
-      const res = await request(app)
-        .get('/reports?reportID=60910ccf2f01636db0fae51d')
-      expect(res.statusCode).toEqual(200);
-      console.log(res.body);
-    });
+    // it('should get', async () => {
+    //   const res = await request(app)
+    //     .get('/reports?reportID=60910ccf2f01636db0fae51d')
+    //   expect(res.statusCode).toEqual(200);
+    //   console.log(res.body);
+    // });
 
     
 });
