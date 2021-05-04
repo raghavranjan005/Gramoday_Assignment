@@ -32,6 +32,7 @@ app.post('/reports', async (req, res) => {
     const reportDetails = req.body.reportDetails;
     const pricePerKg = (reportDetails.price)/(reportDetails.convFctr);
     const user = (reportDetails.userID);
+
     const report = await Report.findOne({
         marketID: reportDetails.marketID,
         cmdtyID: reportDetails.cmdtyID,
@@ -55,10 +56,12 @@ app.post('/reports', async (req, res) => {
                 status:"success",
                 reportID: report._id,
             }
-            res.send(response);
+            res.status(201).send(response);
+            // res.send(response);
         } catch (error) {
             console.log("Something Went Wrong in 1");
-            res.send(error.message);
+            res.status(400).send(error.message)
+            // res.send(error.message);
         }
 
     }else{
@@ -75,10 +78,10 @@ app.post('/reports', async (req, res) => {
                 status:"success",
                 reportID: report._id,
             }
-            res.send(response);
+            res.status(201).send(response);
         } catch (error) {
             console.log("Something Went Wrong in 2");
-            res.send(error.message);
+            res.status(400).send(error.message)
         }
     }
     
@@ -103,9 +106,13 @@ app.post('/reports', async (req, res) => {
             priceUnit: report.priceUnit,
             price: report.price
         }
-        res.send(response);
+        res.status(200).send(response);
     }else{
-        res.send("Report not found")
+        res.status(400).send("Report not found")
     }
     
   });
+
+ 
+
+  export default app;
